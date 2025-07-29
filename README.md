@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![License](https://img.shields.io/badge/License-MIT/Apache2.0-green.svg)
 
 A multi-engine synthetic data generation tool developed by [Himanshu Jangra](https://github.com/himanshujangra1697) for creating domain-specific datasets using cutting-edge AI models.
 

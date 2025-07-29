@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "John Doe",
+    "Age": 45,
+    "Condition": "Hypertension",
+    "Last_Visit": "2023-01-15",
+    "Blood_Pressure": "120/80"
+  },
+  {
+    "Name": "Adam Ros",
+    "Age": 36,
+    "Condition": "Diabetes",
+    "Last_Visit": "2024-06-27",
+    "Blood_Pressure": "135/85"
+  }
+]

@@ -1,0 +1,12 @@
+venv/
+.env/
+__pycache__/
+*.pyc
+*.csv
+*.json
+models/*.gguf
+*.bin
+*.pth
+*.h5
+*.log
+.DS_Store

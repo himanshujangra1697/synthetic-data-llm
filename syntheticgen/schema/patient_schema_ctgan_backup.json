@@ -1,0 +1,10 @@
+{
+    "fields": {
+        "age": {"type": "integer", "min": 18, "max": 90},
+        "gender_code": {"type": "integer", "values": [0, 1]},
+        "condition_code": {"type": "integer", "values": [0, 1, 2]},
+        "bp_sys": {"type": "integer", "min": 90, "max": 180},
+        "bp_dia": {"type": "integer", "min": 60, "max": 120},
+        "last_visit_days": {"type": "integer", "min": 1, "max": 365}
+    }
+}

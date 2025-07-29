@@ -1,0 +1,7 @@
+{
+  "Name": "name",
+  "Age": "int:18-90",
+  "Condition": "category:[Diabetes, Hypertension, Asthma]",
+  "Last_Visit": "date:past",
+  "Blood_Pressure": "string:pattern=^\\d{2,3}/\\d{2,3}$"
+}

@@ -15,10 +15,10 @@ local machine. It is suggested to use other models if you want to generate rows
 more than 1000 because of local machine limitations.
 Input - No. of Rows, Schema JSON
 
-2. Openrouter API (cloud) - 
+2. Openrouter API (cloud) - [add details for this model]
 Input - No. of Rows, Schema JSON
 
-3. CTGAN (faker python library) - 
+3. CTGAN (faker python library) - [add details for this model]
 Input - No. of Rows, Schema JSON, Example rows>=2 in JSON (opetional)
 
 

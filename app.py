@@ -7,7 +7,7 @@ from syntheticgen.main import DataGenerator
 
 def main():
     generator = DataGenerator()
-    st.set_page_config(layout="wide", page_title="⚡ Turbo Data Generator")
+    st.set_page_config(layout="wide", page_title="Synthetic Data Generator", page_icon=":infinity:")
 
     # Sidebar Controls
     with st.sidebar:
@@ -56,7 +56,7 @@ def main():
                     st.error(f"Error loading example data: {str(e)}")
 
     # Main Interface
-    st.title("🧪 Hybrid Data Generator")
+    st.title("Multi-model Synthetic Data Generator")
     uploaded_file = st.file_uploader("Upload Schema (JSON)", type=["json"])
 
     if uploaded_file and st.button("Generate", type="primary"):

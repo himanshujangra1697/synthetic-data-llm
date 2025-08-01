@@ -6,7 +6,7 @@ load_dotenv()
 class Config:
 
     # Model configurations
-    LOCAL_LLM_PATH = os.getenv("LOCAL_LLM_PATH", "models/openhermes-2.5-mistral-7b.Q4_K_M.gguf")
+    LOCAL_LLM_PATH = os.getenv("LOCAL_LLM_PATH", "synthetic-data-llm/models/openhermes-2.5-mistral-7b.Q4_K_M.gguf")
     
     # OpenRouter configurations (optional)
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")

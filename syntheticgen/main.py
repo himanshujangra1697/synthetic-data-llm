@@ -37,7 +37,7 @@ class DataGenerator:
         """Initialize OpenHermes with optimized settings"""
         if not self.model_loaded:
             self.local_llm = Llama(
-                model_path="openhermes-2.5-mistral-7b.Q4_K_M.gguf",
+                model_path=Config.LOCAL_LLM_PATH,
                 n_gpu_layers=35,
                 n_ctx=2048,
                 verbose=False,
@@ -60,16 +60,6 @@ class DataGenerator:
                   STRICT FORMATTING RULES:
                   1. Output MUST be a valid JSON array of objects
                   2. NEVER include code, explanations, or markdown
-                  3. Example of valid output:
-                  [
-                    {{
-                      "Name": "Example Name",
-                      "Age": 30,
-                      "Condition": "Diabetes",
-                      "Last_Visit": "2023-01-15",
-                      "Blood_Pressure": "120/80"
-                    }}
-                  ]
 
                   YOUR OUTPUT:"""
 

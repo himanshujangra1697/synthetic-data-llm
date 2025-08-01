@@ -12,6 +12,7 @@ class Config:
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
     OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
     OPENROUTER_MODEL = os.getenv("MODEL_NAME", "anthropic/claude-2")  # Default model
+    MAX_TOKENS = 4096
     
     # Path configurations
     SCHEMA_DIR = os.path.join(os.path.dirname(__file__), 'schema')
@@ -21,6 +22,6 @@ class Config:
     # MODEL = os.getenv("MODEL_NAME", "mistralai/mistral-7b-instruct")
     # MODEL = os.getenv("MODEL_NAME", "google/gemini-2.5-pro-exp-03-25")
 
-    CHUNK_SIZE = 500  # Records per API call
-    MAX_RETRIES = 3
-    DELAY_BETWEEN_CALLS = 1  # Seconds
+    # CHUNK_SIZE = 500  # Records per API call
+    # MAX_RETRIES = 3
+    # DELAY_BETWEEN_CALLS = 1  # Seconds

@@ -112,7 +112,7 @@ class DataGenerator:
                             "messages": [{"role": "user", "content": prompt}],
                             "response_format": {"type": "json_object"},
                             "temperature": 0.3,  # Slightly higher for diversity
-                            "max_tokens": 4096,  # Maximum allowed for most models
+                            "max_tokens": Config.MAX_TOKENS,  # Maximum allowed for most models
                             "top_p": 0.9
                         },
                         timeout=90  # Increased timeout

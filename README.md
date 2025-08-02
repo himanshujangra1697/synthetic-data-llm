@@ -127,4 +127,5 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.<
 
 ---
 
-Developed with ❤️ by Himanshu Jangra | Data Science Enthusiast
+Developed with ❤️ by Himanshu Jangra | Data Scientist
+
